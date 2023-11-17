@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header {
+  max-width: 90%;
+}
+#nav-bar {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  height: 48px;
+  width: 100%;
+  flex-wrap: no-wrap;
+  min-width: fit-content;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-link {
+  flex-wrap: no-wrap;
+  text-decoration: none;
+  color: inherit;
+  min-width: fit-content;
+}
+#header-img {
+  width: 200px;
+  height: auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 100vh;
+}
+main {
+  height: 100vh;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  max-width: fit-content;
+}
+label {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#video {
+  margin: auto;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  max-width: fit-content;
+  padding: 0.5em 1em;
+  background-color: rgb(240, 190, 50);
+  border: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+input[type="email"] {
+  padding: 0.5em;
+  min-width: 80%;
+}
+#footer {
+  width: 90%;
+  margin: 10px auto 0;
+  padding: 20px 10px;
+  text-align: right;
+  background-color: rgb(220, 220, 220);
+}
+div {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+div p {
+  margin-bottom: 20px;
+}
+div p span {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+@media screen and (min-width: 500px) {
+  body {
+    background-color: inherit;
+  }
+}
